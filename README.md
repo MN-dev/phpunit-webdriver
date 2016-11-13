@@ -4,6 +4,7 @@ the power of webdriver reveals when you want to click elements, fill forms, drag
 <hr>
 But how can control the browser? Should we move the mouse in order to click on element? Well, not exactly. WebDriver allows us to locate element on page by its ID, class name, element name, CSS, or XPath. Let’s list all possible locator types, taken from WebDriverBy class:
 #
+<hr>
 . WebDriverBy::className() - searches for element by its CSS class. <br>
 . WebDriverBy::cssSelector() - searches for element by its CSS selector (like jQuery).<br>
 . WebDriverBy::id() - searches for element by its id.<br>
