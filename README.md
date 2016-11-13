@@ -1,7 +1,7 @@
 # phpunit-webdriver
 
 the power of webdriver reveals when you want to click elements, fill forms, drag and drop elements, etc. That’s why we will write a test that demonstrates some of this features.
-
+<hr>
 But how can control the browser? Should we move the mouse in order to click on element? Well, not exactly. WebDriver allows us to locate element on page by its ID, class name, element name, CSS, or XPath. Let’s list all possible locator types, taken from WebDriverBy class:
 #
 . WebDriverBy::className() - searches for element by its CSS class. <br>
