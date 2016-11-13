@@ -14,7 +14,7 @@ class GitHubTest extends PHPUnit_Framework_TestCase {
         $this->webDriver = RemoteWebDriver::create('http://localhost:4444/wd/hub', $capabilities);
     }
 
-    protected $url = 'https://github.com';
+    protected $url = 'https://github.com/';
 
     public function testGitHubHome()
     {
